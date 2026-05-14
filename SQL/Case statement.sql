@@ -35,6 +35,8 @@ end as bonus,
 from employee_salary
 ;
 
+
+
 SELECT *,
        new_salary + bonus AS total_salary
 FROM
