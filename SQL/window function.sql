@@ -33,4 +33,6 @@ join employee_salary sal
 	on dem.employee_id = sal.employee_id
     ;
     
-    
+select*,
+row_number() over(partition by gender)
+from employee_demographics;
